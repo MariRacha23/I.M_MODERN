@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARKHStudio | Premium Architecture</title>
+    <link rel="icon" type="image/png" href="video&imgs/logo.jpeg">
+    
+    <title>I.M MODERN</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="main-header">
-        <div class="logo">ARKH<span>Studio</span></div>
+        <div class="logo">
+    <img src="video&imgs/logo.jpeg" alt="Logo" class="logo-img">
+    I.M MODERN
+</div>
         <div class="hamburger-menu" id="hamburger">
         <span></span>
         <span></span>
@@ -22,9 +27,16 @@
             <a href="#slide5" data-i18n="nav_contact">Contact</a>
 
             <div class="lang-switcher">
-                <button class="lang-btn active-lang" data-lang="en">EN</button>
-                <button class="lang-btn" data-lang="ka">KA</button>
-            </div>
+    <button class="lang-btn active-lang" data-lang="en">
+        <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/gb.svg" alt="EN" class="flag-icon"> EN
+    </button>
+    <button class="lang-btn" data-lang="ka">
+        <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/ge.svg" alt="KA" class="flag-icon"> KA
+    </button>
+    <button class="lang-btn" data-lang="ru">
+        <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/ru.svg" alt="RU" class="flag-icon"> RU
+    </button>
+</div>
         </nav>
     </header>
 
@@ -32,7 +44,7 @@
 
         <section id="slide1" class="slide hero-slide">
             <video autoplay loop muted playsinline class="bg-video">
-                <source src="./video/hero-video.mp4" type="video/mp4">
+                <source src="./video&imgs/video6.mp4" type="video/mp4">
             </video>
             
             <div class="slide-content">
@@ -86,13 +98,63 @@
             </div>
         </section>
 
-        <section id="slide5" class="slide contact-slide">
-            <div class="slide-content">
-                <h2 data-i18n="contact_title">Let's Build Something Iconic</h2>
-                <p data-i18n="contact_desc">Get in touch with our expert team for consultations.</p>
-                <a href="mailto:info@arkhstudio.com" class="contact-btn" data-i18n="contact_btn">Start a Project</a>
+   <section id="slide5" class="slide contact-slide">
+    <h2 data-i18n="contact_title">Contact Us</h2>
+    <div class="contact-underline"></div>
+    <div class="contact-hero-text" data-i18n="contact_hero">LET'S BUILD SOMETHING ICONIC</div>
+
+    <div class="contact-grid">
+        
+        <div class="contact-column">
+            <h3 class="column-title" data-i18n="direct_title">Direct Connect</h3>
+            <p class="column-desc" data-i18n="direct_desc">Message or call us on your preferred platform:</p>
+            
+            <div class="info-items-grid">
+                <a href="tel:+995500000000" class="info-item">
+                    <span class="icon">📞</span>
+                    <div class="info-text">
+                        <label>Phone</label>
+                        <span>+995 599 XX XX XX</span>
+                    </div>
+                </a>
+                <a href="https://wa.me/995599XXXXXX" target="_blank" class="info-item">
+                    <span class="icon">💬</span>
+                    <div class="info-text">
+                        <label>WhatsApp</label>
+                        <span>Chat on WhatsApp</span>
+                    </div>
+                </a>
+                <a href="https://instagram.com/your_username" target="_blank" class="info-item">
+                    <span class="icon">📸</span>
+                    <div class="info-text">
+                        <label>Instagram</label>
+                        <span>@i.m_modern</span>
+                    </div>
+                </a>
+                <a href="https://facebook.com/your_page" target="_blank" class="info-item">
+                    <span class="icon">📘</span>
+                    <div class="info-text">
+                        <label>Facebook</label>
+                        <span>I.M Modern Architecture</span>
+                    </div>
+                </a>
             </div>
-        </section>
+        </div>
+
+        <div class="contact-column">
+            <h3 class="column-title" data-i18n="booking_title">Book a Visit</h3>
+            <p class="column-desc" data-i18n="booking_desc">Fill out the form and we will contact you shortly:</p>
+            
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+                <button type="submit" data-i18n="contact_btn">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</section>
 
     </main>
 

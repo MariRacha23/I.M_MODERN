@@ -106,9 +106,12 @@ const translations = {
     mat_title: "Materials & Precision",
     mat_desc: "Raw Concrete. Structural Steel. Pure Glass.",
 
-    contact_title: "Let's Build Something Iconic",
-    contact_desc: "Get in touch with our expert team for consultations.",
-    contact_btn: "Start a Project",
+    contact_hero: "LET'S BUILD SOMETHING ICONIC",
+    contact_title: "Contact Us",
+direct_title: "Direct Connect",
+direct_desc: "Message or call us on your preferred platform:",
+booking_title: "Book a Visit",
+booking_desc: "Fill out the form and we will contact you shortly:",
   },
   ka: {
     nav_home: "მთავარი",
@@ -136,10 +139,45 @@ const translations = {
     mat_title: "მასალები და სიზუსტე",
     mat_desc: "უხეში ბეტონი. სტრუქტურული ფოლადი. სუფთა შუშა.",
 
-    contact_title: "შევქმნათ რაიმე იკონური",
-    contact_desc: "დაუკავშირდით ჩვენს ექსპერტთა გუნდს კონსულტაციისთვის.",
-    contact_btn: "პროექტის დაწყება",
+   contact_hero: "შევქმნათ რაღაც უნიკალური",
+   contact_title: "დაგვიკავშირდით",
+direct_title: "პირდაპირი კავშირი",
+direct_desc: "მოგვწერეთ ან დაგვირეკეთ თქვენთვის სასურველ პლატფორმაზე:",
+booking_title: "ვიზიტის დაჯავშნა",
+booking_desc: "შეავსეთ ფორმა და ჩვენ მალე დაგიკავშირდებით:",
   },
+  ru: {
+        nav_home: "Главная",
+        nav_philosophy: "Философия",
+        nav_projects: "Проекты",
+        nav_materials: "Материалы",
+        nav_contact: "Контакты",
+        
+        hero_title: "Формируя <br>Архитектуру Будущего",
+        hero_desc: "Инновационный дизайн встречает структурное совершенство.",
+        scroll_down: "Прокрутите вниз ↓",
+        
+        philo_title: "Наша Философия",
+        philo_desc: "Мы верим, что архитектура — это не просто строительство зданий; это создание пространств, которые вдохновляют, выдерживают испытание временем и гармонируют с окружающей средой. Каждая линия, которую мы проводим, балансирует между чистой эстетикой и функциональной точностью.",
+        
+        proj_main_title: "Выборные Проекты",
+        proj_title_1: "Нексус Тауэр",
+        proj_desc_1: "Коммерческая / 2026",
+        proj_title_2: "Павильон Вортекс",
+        proj_desc_2: "Культурная / 2025",
+        proj_title_3: "Минималистичный Оазис",
+        proj_desc_3: "Жилая / 2026",
+        
+        mat_title: "Материалы и Точность",
+        mat_desc: "Необработанный бетон. Структурная сталь. Чистое стекло.",
+        
+        contact_hero: "Давайте Создадим Что-то Иконическое",
+        contact_title: "Свяжитесь с Нами",
+        direct_title: "Прямое Соединение",
+        direct_desc: "Напишите нам или позвоните на предпочитаемой платформе:",
+        booking_title: "Записаться на Визит",
+        booking_desc: "Заполните форму, и мы свяжемся с вами в ближайшее время:",
+    }
 };
 
 const langButtons = document.querySelectorAll(".lang-btn");
@@ -186,3 +224,5 @@ navItems.forEach(item => {
         navMenu.classList.remove('open');
     });
 });
+
+
