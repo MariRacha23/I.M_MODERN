@@ -87,97 +87,101 @@ const translations = {
     nav_materials: "Materials",
     nav_contact: "Contact",
 
-    hero_title: "Shaping The <br>Future Architecture",
-    hero_desc: "Innovative design meets structural perfection.",
+    hero_title: "Turnkey <br>Renovation Solutions",
+    hero_desc: "From raw concrete to your dream move-in-ready home.",
     scroll_down: "Scroll Down ↓",
 
     philo_title: "Our Philosophy",
     philo_desc:
-      "We believe that architecture is more than just building structures; it's about creating spaces that inspire, endure, and harmonize with their environment. Every line we draw balances raw aesthetics with functional precision.",
+      "We take your space from a rough concrete shell (black frame) and transform it into a fully finished, ready-to-live home. Armed with professional, high-end tools and years of expertise, we manage every step of the renovation process. No stress, no shortcuts—just absolute precision and clean work before you bring in the furniture.",
 
-    proj_main_title: "Featured Projects",
-    proj_title_1: "The Nexus Tower",
-    proj_desc_1: "Commercial / 2026",
-    proj_title_2: "Vortex Pavilion",
-    proj_desc_2: "Cultural / 2025",
-    proj_title_3: "Minimalist Oasis",
-    proj_desc_3: "Residential / 2026",
+    proj_main_title: "Our Works",
+    proj_title_1: "Modern Apartment",
+    proj_desc_1: "Full Renovation / 2026",
+    proj_title_2: "Cozy Living Space",
+    proj_desc_2: "Turnkey Project / 2025",
+    proj_title_3: "Minimalist Flat",
+    proj_desc_3: "Premium Finish / 2026",
 
-    mat_title: "Materials & Precision",
-    mat_desc: "Raw Concrete. Structural Steel. Pure Glass.",
+    mat_title: "Tools & Materials",
+    mat_desc: "Professional Equipment. Premium Materials. Flawless Execution.",
 
-    contact_hero: "LET'S BUILD SOMETHING ICONIC",
+    contact_hero: "LET'S BUILD YOUR DREAM SPACE",
     contact_title: "Contact Us",
-direct_title: "Direct Connect",
-direct_desc: "Message or call us on your preferred platform:",
-booking_title: "Book a Visit",
-booking_desc: "Fill out the form and we will contact you shortly:",
+    direct_title: "Direct Connect",
+    direct_desc: "Message or call us on your preferred platform:",
+    booking_title: "Book a Renovation",
+    booking_desc: "Fill out the form and we will contact you shortly:",
   },
   ka: {
     nav_home: "მთავარი",
-    nav_philosophy: "ფილოსოფია",
+    nav_philosophy: "ჩვენი მიდგომა",
     nav_projects: "პროექტები",
-    nav_materials: "მასალები",
+    nav_materials: "ხელსაწყოები",
     nav_contact: "კონტაქტი",
 
-    hero_title: "მომავლის <br>არქიტექტურის ფორმირება",
-    hero_desc: "ინოვაციური დიზაინი ერწყმის სტრუქტურულ სრულყოფილებას.",
+    hero_title: "სრული რემონტი <br>შავი კარკასიდან",
+    hero_desc: "პროფესიონალური რემონტი და მშენებლობა ავეჯის შეტანამდე.",
     scroll_down: "ჩამოსქროლეთ ↓",
 
-    philo_title: "ჩვენი ფილოსოფია",
+    philo_title: "ჩვენი მიდგომა",
     philo_desc:
-      "ჩვენ გვჯერა, რომ არქიტექტურა იმაზე მეტია, ვიდრე უბრალოდ შენობების აგება; ეს არის სივრცეების შექმნა, რომლებიც შთააგონებენ, უძლებენ დროს და ჰარმონიაში არიან გარემოსთან. თითოეული ხაზი, რომელსაც ვავლებთ, აბალანსებს  ესთეტიკასა და ფუნქციონალურ სიზუსტეს.",
+      "ჩვენ ჩავიბარებთ თქვენს ბინას შავი კარკასის მდგომარეობაში და მივიყვანთ სრულ, საცხოვრებელ კონდიციამდე. ჩვენი საკუთარი, თანამედროვე ხელსაწყოებითა და მრავალწლიანი გამოცდილებით, უზრუნველყოფთ რემონტის ყველა ეტაპის უნაკლო შესრულებას. თქვენ არ მოგიწევთ ნერვიულობა – ჩვენ ვასრულებთ ყველა უხეშ და ფაქიზ სამუშაოს იდეალური სიზუსტით, ავეჯის შეტანამდე.",
 
-    proj_main_title: "რჩეული პროექტები",
-    proj_title_1: "ნექსუს თაუერი",
-    proj_desc_1: "კომერციული / 2026",
-    proj_title_2: "ვორტექს პავილიონი",
-    proj_desc_2: "კულტურული / 2025",
-    proj_title_3: "მინიმალისტური ოაზისი",
-    proj_desc_3: "საცხოვრებელი / 2026",
+    proj_main_title: "შესრულებული სამუშაოები",
+    proj_title_1: "თანამედროვე ბინა",
+    proj_desc_1: "სრული რემონტი / 2026",
+    proj_title_2: "მყუდრო სახლი",
+    proj_desc_2: "გასაღების ჩაბარებით / 2025",
+    proj_title_3: "მინიმალისტური დიზაინი",
+    proj_desc_3: "პრემიუმ ხარისხი / 2026",
 
-    mat_title: "მასალები და სიზუსტე",
-    mat_desc: "უხეში ბეტონი. სტრუქტურული ფოლადი. სუფთა შუშა.",
+    mat_title: "ტექნიკა და ხარისხი",
+    mat_desc: "პროფესიონალური ხელსაწყოები. საიმედო მასალები. იდეალური შედეგი.",
 
-   contact_hero: "შევქმნათ რაღაც უნიკალური",
-   contact_title: "დაგვიკავშირდით",
-direct_title: "პირდაპირი კავშირი",
-direct_desc: "მოგვწერეთ ან დაგვირეკეთ თქვენთვის სასურველ პლატფორმაზე:",
-booking_title: "ვიზიტის დაჯავშნა",
-booking_desc: "შეავსეთ ფორმა და ჩვენ მალე დაგიკავშირდებით:",
+    contact_hero: "შევუქმნათ კომფორტი თქვენს სახლს",
+    contact_title: "დაგვიკავშირდით",
+    direct_title: "პირდაპირი კავშირი",
+    direct_desc: "მოგვწერეთ ან დაგვირეკეთ თქვენთვის სასურველ პლატფორმაზე:",
+    booking_title: "შეაფასეთ რემონტი",
+    booking_desc:
+      "შეავსეთ ფორმა და ჩვენ მალე დაგიკავშირდებით დეტალების დასაზუსტებლად:",
   },
   ru: {
-        nav_home: "Главная",
-        nav_philosophy: "Философия",
-        nav_projects: "Проекты",
-        nav_materials: "Материалы",
-        nav_contact: "Контакты",
-        
-        hero_title: "Формируя <br>Архитектуру Будущего",
-        hero_desc: "Инновационный дизайн встречает структурное совершенство.",
-        scroll_down: "Прокрутите вниз ↓",
-        
-        philo_title: "Наша Философия",
-        philo_desc: "Мы верим, что архитектура — это не просто строительство зданий; это создание пространств, которые вдохновляют, выдерживают испытание временем и гармонируют с окружающей средой. Каждая линия, которую мы проводим, балансирует между чистой эстетикой и функциональной точностью.",
-        
-        proj_main_title: "Выборные Проекты",
-        proj_title_1: "Нексус Тауэр",
-        proj_desc_1: "Коммерческая / 2026",
-        proj_title_2: "Павильон Вортекс",
-        proj_desc_2: "Культурная / 2025",
-        proj_title_3: "Минималистичный Оазис",
-        proj_desc_3: "Жилая / 2026",
-        
-        mat_title: "Материалы и Точность",
-        mat_desc: "Необработанный бетон. Структурная сталь. Чистое стекло.",
-        
-        contact_hero: "Давайте Создадим Что-то Иконическое",
-        contact_title: "Свяжитесь с Нами",
-        direct_title: "Прямое Соединение",
-        direct_desc: "Напишите нам или позвоните на предпочитаемой платформе:",
-        booking_title: "Записаться на Визит",
-        booking_desc: "Заполните форму, и мы свяжемся с вами в ближайшее время:",
-    }
+    nav_home: "Главная",
+    nav_philosophy: "Наш подход",
+    nav_projects: "Проекты",
+    nav_materials: "Инструменты",
+    nav_contact: "Контакты",
+
+    hero_title: "Ремонт под <br>ключ с черного каркаса",
+    hero_desc: "Профессиональный ремонт от бетона до заноса мебели.",
+    scroll_down: "Прокрутите вниз ↓",
+
+    philo_title: "Наш подход",
+    philo_desc:
+      "Мы берем ваше пространство в состоянии черного каркаса и доводим его до идеального жилого вида. Используя собственные профессиональные инструменты премиум-класса и многолетний опыт, мы контролируем каждый этап ремонта. Никаких забот для вас — мы выполняем всю работу с абсолютной точностью, подготавливая дом к заносу мебели.",
+
+    proj_main_title: "Наши работы",
+    proj_title_1: "Модерн Квартира",
+    proj_desc_1: "Полный ремонт / 2026",
+    proj_title_2: "Уютный Дом",
+    proj_desc_2: "Под ключ / 2025",
+    proj_title_3: "Минималистичный дизайн",
+    proj_desc_3: "Премиум отделка / 2026",
+
+    mat_title: "Техника и Качество",
+    mat_desc:
+      "Профессиональное оборудование. Надежные материалы. Безупречный результат.",
+
+    contact_hero: "Давайте Создадим Пространство Вашей Мечты",
+    contact_title: "Свяжитесь с Нами",
+    direct_title: "Прямое Соединение",
+    direct_desc: "Напишите нам или позвоните на предпочитаемой платформе:",
+    booking_title: "Заявка на Ремонт",
+    booking_desc:
+      "Заполните форму, и мы свяжемся с вами в ближайшее время для оценки:",
+  },
 };
 
 const langButtons = document.querySelectorAll(".lang-btn");
@@ -203,26 +207,64 @@ langButtons.forEach((btn) => {
   });
 });
 
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("nav-menu");
+const navItems = document.querySelectorAll(".nav-links a");
 
-
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementById('nav-menu');
-const navItems = document.querySelectorAll('.nav-links a');
-
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('open');
-    navMenu.classList.toggle('open');
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("open");
+  navMenu.classList.toggle("open");
 });
 
-navItems.forEach(item => {
-    item.addEventListener('click', () => {
-        document.querySelectorAll('.nav-links a.active').forEach(activeLink => {
-            activeLink.classList.remove('active');
-        });
-        item.classList.add('active');
-        hamburger.classList.remove('open');
-        navMenu.classList.remove('open');
+navItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    document.querySelectorAll(".nav-links a.active").forEach((activeLink) => {
+      activeLink.classList.remove("active");
+    });
+    item.classList.add("active");
+    hamburger.classList.remove("open");
+    navMenu.classList.remove("open");
+  });
+});
+
+const form = document.getElementById("booking-form");
+const submitBtn = document.getElementById("submit-btn");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const originalText = submitBtn.innerText;
+  submitBtn.innerText = "Sending...";
+  submitBtn.disabled = true;
+
+  const formData = new FormData(form);
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+
+  fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: json,
+  })
+    .then(async (response) => {
+      let jsonResponse = await response.json();
+      if (response.status == 200) {
+        alert("გმადლობთ! შეტყობინება წარმატებით გაიგზავნა.");
+        form.reset();
+      } else {
+        console.log(jsonResponse);
+        alert("დაფიქსირდა შეცდომა. გთხოვთ, სცადოთ მოგვიანებით.");
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+      alert("ინტერნეტის ხარვეზი! შეტყობინება ვერ გაიგზავნა.");
+    })
+    .then(function () {
+      submitBtn.innerText = originalText;
+      submitBtn.disabled = false;
     });
 });
-
-
