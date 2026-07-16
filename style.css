@@ -272,7 +272,7 @@ h3,
 }
 
 .img-p1 {
-    background: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=500') center/cover;
+    background: url('./video&imgs/აბაზანა1_n.jpg') center/cover;
 }
 
 .img-p2 {
@@ -280,7 +280,7 @@ h3,
 }
 
 .img-p3 {
-    background: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=500') center/cover;
+    background: url('./video&imgs/აბაზანა_n.jpg') center/cover;
 }
 
 .project-card:hover {
