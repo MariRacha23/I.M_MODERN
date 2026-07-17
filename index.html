@@ -44,14 +44,15 @@
             <a href="#slide6" data-i18n="nav_contact">Contact</a>
 
             <div class="lang-switcher">
-                <button class="lang-btn active-lang" data-lang="en">
-                    <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/gb.svg" alt="EN"
-                        class="flag-icon"> EN
-                </button>
                 <button class="lang-btn" data-lang="ka">
                     <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/ge.svg" alt="KA"
                         class="flag-icon"> KA
                 </button>
+                <button class="lang-btn active-lang" data-lang="en">
+                    <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/gb.svg" alt="EN"
+                        class="flag-icon"> EN
+                </button>
+                
                 <button class="lang-btn" data-lang="ru">
                     <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/ru.svg" alt="RU"
                         class="flag-icon"> RU
@@ -92,8 +93,8 @@
         <section id="slide3" class="slide info-slide" style="background: #1a1a1a; color: #fff;">
     <div class="slide-content split-layout">
         <div class="image-block">
-            <div class="mock-img img-certificate" style="background: url('./video&imgs/სიგელი.jpg') center/cover;"></div> 
-            </div>
+            <div class="mock-img img-certificate certificate-clickable" style="background-image: url('./video&imgs/სიგელი.jpg'); cursor: pointer;"></div> 
+        </div>
         <div class="text-block">
             <h2 data-i18n="about_title" style="color: #B89E72;">My Story & UK Standards</h2>
             <p data-i18n="about_desc">My journey in professional renovation began in London...</p>
@@ -199,7 +200,7 @@
 </section>
 
 <div id="qr-modal" class="modal-overlay">
-    <div class="modal-content">
+    <div class="qr-modal-content">
         <button id="close-qr-btn" class="modal-close">&times;</button>
         <div class="modal-qr-wrapper">
             <img src="./video&imgs/qr-code.png" alt="Digital Portfolio QR Code">

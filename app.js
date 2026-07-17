@@ -119,7 +119,6 @@ const translations = {
     booking_title: "Book a Renovation",
     booking_desc: "Fill out the form and we will contact you shortly:",
     
-    // ფორმის შიდა ტექსტები და ღილაკი
     placeholder_name: "Your Name",
     placeholder_email: "Email Address",
     placeholder_message: "Tell us about your project...",
@@ -142,7 +141,7 @@ const translations = {
       "ჩვენ ჩავიბარებთ თქვენს ბინას შავი კარკასის მდგომარეობაში და მივიყვანთ სრულ, საცხოვრებელ კონდიციამდე. ჩვენი საკუთარი, თანამედროვე ხელსაწყოებითა და მრავალწლიანი გამოცდილებით, უზრუნველყოფთ რემონტის ყველა ეტაპის უნაკლო შესრულებას. თქვენ არ მოგიწევთ ნერვიულობა – კლიენტთან შეთანხმებით, ჩვენ თავად უზრუნველყოფთ ავეჯის ტრანსპორტირებასა და მოწყობას, რათა ჩაიბაროთ საცხოვრებლად სრულიად მზა სახლი.",
 
     about_title: "ჩემი ისტორია და ბრიტანული სტანდარტი",
-    about_desc: "ჩემი პროფესიული გზა სარემონტო სფეროში დიდი ბრიტანეთიდან, კერძოდ ლონდონიდან დაიწყო. იქ მუშაობისას მივიღე ოფიციალური Youview Company LTD-ის სერტიფიკატი და ავითვისე ხარისხის უმაღლესი საერთაშორისო სტანდარტები. საქართველოში დაბრუნებისას, ყველა პროფესიონალური და მაღალტექნოლოგიური ხელსაწყო სწორედ ინგლისიდან ჩამოვიტანე, რაც გვაძლევს საშუალებას, ნებისმიერი სამუშაო უნაკლო სიზუსტით შევასრულოთ.",
+    about_desc: "ჩემი პროფესიული გზა სარემონტო სფეროში დიდი ბრიტანეთიდან, კერძოდ ლონდონიდან დაიწყო. იქ მუშაობისას მივიღე ოფიციალური Youview Company LTD-ის სერტიფიკატი და ავითვისე ხარისხის უმაღลესი საერთაშორისო სტანდარტები. საქართველოში დაბრუნებისას, ყველა პროფესიონალური და მაღალტექნოლოგიური ხელსაწყო სწორედ ინგლისიდან ჩამოვიტანე, რაც გვაძლევს საშუალებას, ნებისმიერი სამუშაო უნაკლო სიზუსტით შევასრულოთ.",
 
     proj_main_title: "შესრულებული სამუშაოები",
     proj_title_1: "თანამედროვე ბინა",
@@ -155,7 +154,7 @@ const translations = {
     mat_title: "ტექნიკა და ხარისხი",
     mat_desc: "ბრიტანული პროფესიონალური ხელსაწყოები. საიმედო მასალები. იდეალური შედეგი.",
 
-    contact_hero: "შევუქმნათ კომფორტი თქვენს სახლს",
+    contact_hero: "შექმნათ კომფორტი თქვენს სახლში",
     contact_title: "დაგვიკავშირდით",
     direct_title: "პირდაპირი კავშირი",
     direct_desc: "დაასკანერეთ QR კოდი ან მოგვწერეთ თქვენთვის სასურველ პლატფორმაზე:",
@@ -206,11 +205,11 @@ const translations = {
     qr_btn_text: "Посмотреть QR портфолио",
     qr_scan_text: "Отсканируйте для просмотра цифрового портфолио",
     booking_title: "Заказать ремонт",
-    booking_desc: "Заполните форму, и мы скоро свяжемся с вами для уточнения деталей:",
+    booking_desc: "Заполни форму, и мы скоро свяжемся с вами для уточнения деталей:",
     
     placeholder_name: "Ваше Имя",
     placeholder_email: "Эл. Почта",
-    placeholder_message: "Расскажите о вашем проекте...",
+    placeholder_message: "Рассказажите о вашем проекте...",
     contact_btn: "Отправить сообщение"
   }
 };
@@ -223,17 +222,30 @@ const changeLanguage = (lang) => {
   elementsToTranslate.forEach((element) => {
     const key = element.getAttribute("data-i18n");
     if (translations[lang] && translations[lang][key]) {
-      element.innerHTML = translations[lang][key];
+      if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
+        element.setAttribute("placeholder", translations[lang][key]);
+      } else {
+        element.innerHTML = translations[lang][key];
+      }
+    }
+  });
+
+  langButtons.forEach(btn => {
+    if (btn.getAttribute("data-lang") === lang) {
+      btn.classList.add("active-lang");
+    } else {
+      btn.classList.remove("active-lang");
     }
   });
 };
 
+let currentLang = localStorage.getItem("selectedLanguage") || "ka";
+changeLanguage(currentLang);
+
 langButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
-    document.querySelector(".active-lang").classList.remove("active-lang");
-    btn.classList.add("active-lang");
-
     const selectedLang = btn.getAttribute("data-lang");
+    localStorage.setItem("selectedLanguage", selectedLang);
     changeLanguage(selectedLang);
   });
 });
@@ -265,7 +277,7 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   const originalText = submitBtn.innerText;
-  submitBtn.innerText = "Sending...";
+  submitBtn.innerText = currentLang === "ka" ? "იგზავნება..." : currentLang === "ru" ? "Отправка..." : "Sending...";
   submitBtn.disabled = true;
 
   const formData = new FormData(form);
@@ -283,16 +295,16 @@ form.addEventListener("submit", function (e) {
     .then(async (response) => {
       let jsonResponse = await response.json();
       if (response.status == 200) {
-        alert("გმადლობთ! შეტყობინება წარმატებით გაიგზავნა.");
+        alert(currentLang === "ka" ? "გმადლობთ! შეტყობინება წარმატებით გაიგზავნა." : currentLang === "ru" ? "Спасибо! Сообщение успешно отправлено." : "Thank you! Message sent successfully.");
         form.reset();
       } else {
         console.log(jsonResponse);
-        alert("დაფიქსირდა შეცდომა. გთხოვთ, სცადოთ მოგვიანებით.");
+        alert(currentLang === "ka" ? "დაფიქсირდა შეცდომა. გთხოვთ, სცადოთ მოგვიანებით." : "An error occurred. Please try again later.");
       }
     })
     .catch((error) => {
       console.log(error);
-      alert("ინტერნეტის ხარვეზი! შეტყობინება ვერ გაიგზავნა.");
+      alert(currentLang === "ka" ? "ინტერნეტის ხარვეზი! შეტყობინება ვერ გაიგზავნა." : "Network error! Message could not be sent.");
     })
     .then(function () {
       submitBtn.innerText = originalText;
@@ -300,21 +312,68 @@ form.addEventListener("submit", function (e) {
     });
 });
 
-
 const openQrBtn = document.getElementById('open-qr-btn');
 const closeQrBtn = document.getElementById('close-qr-btn');
 const qrModal = document.getElementById('qr-modal');
 
-openQrBtn.addEventListener('click', () => {
+if (openQrBtn && qrModal) {
+  openQrBtn.addEventListener('click', () => {
     qrModal.classList.add('active');
-});
+  });
+}
 
-closeQrBtn.addEventListener('click', () => {
+if (closeQrBtn && qrModal) {
+  closeQrBtn.addEventListener('click', () => {
     qrModal.classList.remove('active');
-});
+  });
+}
 
-qrModal.addEventListener('click', (e) => {
+if (qrModal) {
+  qrModal.addEventListener('click', (e) => {
     if (e.target === qrModal) {
-        qrModal.classList.remove('active');
+      qrModal.classList.remove('active');
     }
-});
+  });
+}
+
+
+const certCard = document.querySelector(".certificate-clickable");
+
+if (certCard) {
+  certCard.addEventListener("click", () => {
+    const computedStyle = window.getComputedStyle(certCard);
+    const bgImage = computedStyle.backgroundImage;
+    const cleanUrl = bgImage.replace(/^url\(['"](.+)['"]\)$/, "$1");
+
+    modalImg.src = cleanUrl;
+    modalCaption.innerText = currentLang === "ka" ? "სერტიფიკატი / Youview Company LTD" : "Certificate / Youview Company LTD";
+
+    modal.classList.add("show");
+    modal.style.display = "block";
+    setTimeout(() => (modal.style.opacity = "1"), 10);
+  });
+}
+
+const modalImageElement = document.getElementById("modal-img");
+
+if (modalImageElement) {
+  modalImageElement.addEventListener("click", function() {
+    this.classList.toggle("zoomed");
+    if (this.classList.contains("zoomed")) {
+      this.style.transform = "scale(1.5)";
+      this.style.cursor = "zoom-out";
+    } else {
+      this.style.transform = "scale(1)";
+      this.style.cursor = "zoom-in";
+    }
+  });
+}
+
+const originalCloseModal = closeModal;
+closeModal = function() {
+  if (modalImageElement) {
+    modalImageElement.style.transform = "scale(1)";
+    modalImageElement.classList.remove("zoomed");
+  }
+  originalCloseModal();
+};
