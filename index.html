@@ -38,9 +38,10 @@
         <nav class="nav-links" id="nav-menu">
             <a href="#slide1" class="active" data-i18n="nav_home">Home</a>
             <a href="#slide2" data-i18n="nav_philosophy">Our Approach</a>
-            <a href="#slide3" data-i18n="nav_projects">Projects</a>
-            <a href="#slide4" data-i18n="nav_materials">Tools & Quality</a>
-            <a href="#slide5" data-i18n="nav_contact">Contact</a>
+            <a href="#slide3" data-i18n="nav_about">My Story</a>
+            <a href="#slide4" data-i18n="nav_projects">Projects</a>
+            <a href="#slide5" data-i18n="nav_materials">Tools & Quality</a>
+            <a href="#slide6" data-i18n="nav_contact">Contact</a>
 
             <div class="lang-switcher">
                 <button class="lang-btn active-lang" data-lang="en">
@@ -77,10 +78,10 @@
             <div class="slide-content split-layout">
                 <div class="text-block">
                     <h2 data-i18n="philo_title">Our Philosophy</h2>
-                    <p data-i18n="philo_desc">We take your space from a rough concrete shell (black frame) and transform
-                        it into a fully finished, ready-to-live home. Armed with professional, high-end tools and years
-                        of expertise, we manage every step of the renovation process. No stress, no shortcuts—just
-                        absolute precision and clean work before you bring in the furniture.</p>
+                    <p data-i18n="philo_desc">We take your space from a rough concrete shell (black frame) and transform it into a fully finished,
+                         ready-to-live home. Armed with professional, high-end tools and years of expertise, we manage every step of the renovation process. 
+                         No stress, no shortcuts—just absolute precision. Upon agreement, 
+                        we also fully coordinate the delivery and arrangement of your furniture, leaving the space completely ready for you.</p>
                 </div>
                 <div class="image-block">
                     <div class="mock-img img-1"></div>
@@ -88,30 +89,42 @@
             </div>
         </section>
 
-        <section id="slide3" class="slide projects-slide">
+        <section id="slide3" class="slide info-slide" style="background: #1a1a1a; color: #fff;">
+    <div class="slide-content split-layout">
+        <div class="image-block">
+            <div class="mock-img img-certificate" style="background: url('./video&imgs/სიგელი.jpg') center/cover;"></div> 
+            </div>
+        <div class="text-block">
+            <h2 data-i18n="about_title" style="color: #B89E72;">My Story & UK Standards</h2>
+            <p data-i18n="about_desc">My journey in professional renovation began in London...</p>
+        </div>
+    </div>
+</section>
+
+        <section id="slide4" class="slide projects-slide">
             <div class="slide-content">
                 <h2 data-i18n="proj_main_title">Our Works</h2>
                 <div class="projects-grid">
                     <div class="project-card">
                         <div class="card-img img-p1"></div>
                         <h3 data-i18n="proj_title_1">Modern Apartment</h3>
-                        <p data-i18n="proj_desc_1">Full Renovation / 2026</p>
+                        <p data-i18n="proj_desc_1">Full Renovation / 2024</p>
                     </div>
                     <div class="project-card">
                         <div class="card-img img-p2"></div>
                         <h3 data-i18n="proj_title_2">Cozy Living Space</h3>
-                        <p data-i18n="proj_desc_2">Turnkey Project / 2025</p>
+                        <p data-i18n="proj_desc_2">Turnkey Project / 2026</p>
                     </div>
                     <div class="project-card">
                         <div class="card-img img-p3"></div>
                         <h3 data-i18n="proj_title_3">Minimalist Flat</h3>
-                        <p data-i18n="proj_desc_3">Premium Finish / 2026</p>
+                        <p data-i18n="proj_desc_3">Premium Finish / 2024</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="slide4" class="slide materials-slide">
+        <section id="slide5" class="slide materials-slide">
             <div class="slide-content">
                 <h2 data-i18n="mat_title">Tools & Materials</h2>
                 <div class="materials-container">
@@ -121,71 +134,79 @@
             </div>
         </section>
 
-        <section id="slide5" class="slide contact-slide">
-            <h2 data-i18n="contact_title">Contact Us</h2>
-            <div class="contact-underline"></div>
-            <div class="contact-hero-text" data-i18n="contact_hero">LET'S BUILD SOMETHING ICONIC</div>
+        <section id="slide6" class="slide contact-slide">
+    <h2 data-i18n="contact_title">Contact Us</h2>
+    <div class="contact-underline"></div>
+    <div class="contact-hero-text" data-i18n="contact_hero">LET'S BUILD SOMETHING ICONIC</div>
 
-            <div class="contact-grid">
+    <div class="contact-grid">
+        <div class="contact-column">
+            <h3 class="column-title" data-i18n="direct_title">Direct Connect</h3>
+            <p class="column-desc" data-i18n="direct_desc">Message or call us on your preferred platform:</p>
 
-                <div class="contact-column">
-                    <h3 class="column-title" data-i18n="direct_title">Direct Connect</h3>
-                    <p class="column-desc" data-i18n="direct_desc">Message or call us on your preferred platform:</p>
+            <button id="open-qr-btn" class="qr-trigger-btn" data-i18n="qr_btn_text">
+    <span class="qr-icon">🔲</span> View Digital Portfolio QR
+</button>
 
-                    <div class="info-items-grid">
-                        <a href="tel:+995551779799" class="info-item">
-                            <span class="icon">📞</span>
-                            <div class="info-text">
-                                <label>Phone</label>
-                                <span>+995 551 779 799</span>
-                            </div>
-                        </a>
-                        <a href="https://wa.me/995551779799" target="_blank" class="info-item">
-                            <span class="icon">💬</span>
-                            <div class="info-text">
-                                <label>WhatsApp</label>
-                                <span>Chat on WhatsApp</span>
-                            </div>
-                        </a>
-                        <a href="https://www.instagram.com/immodern001?utm_source=qr" target="_blank" class="info-item">
-                            <span class="icon">📸</span>
-                            <div class="info-text">
-                                <label>Instagram</label>
-                                <span>@immodern001</span>
-                            </div>
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=61573982754287&mibextid=wwXIfr&rdid=Bxo2rdxjvCDddm3k&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Er4X9sWmp%2F%3Fmibextid%3DwwXIfr#"
-                            target="_blank" class="info-item">
-                            <span class="icon">📘</span>
-                            <div class="info-text">
-                                <label>Facebook</label>
-                                <span>I.M MODERN</span>
-                            </div>
-                        </a>
+            <div class="info-items-grid">
+                <a href="tel:+995551779799" class="info-item">
+                    <span class="icon">📞</span>
+                    <div class="info-text">
+                        <label>Phone</label>
+                        <span>+995 551 779 799</span>
                     </div>
-                </div>
-
-                <div class="contact-column">
-                    <h3 class="column-title" data-i18n="booking_title">Book a Visit</h3>
-                    <p class="column-desc" data-i18n="booking_desc">Fill out the form and we will contact you shortly:
-                    </p>
-
-                    <form class="contact-form" id="booking-form">
-                        <input type="hidden" name="access_key" value="ca02247e-0c5b-4771-8bf9-df165dc60934">
-
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Email Address" required>
-                        <textarea name="message" placeholder="Tell us about your project..." rows="5"
-                            required></textarea>
-
-                        <button type="submit" id="submit-btn" data-i18n="contact_btn">Send Message</button>
-                    </form>
-                </div>
-
+                </a>
+                <a href="https://wa.me/995551779799" target="_blank" class="info-item">
+                    <span class="icon">💬</span>
+                    <div class="info-text">
+                        <label>WhatsApp</label>
+                        <span>Chat on WhatsApp</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/immodern001?utm_source=qr" target="_blank" class="info-item">
+                    <span class="icon">📸</span>
+                    <div class="info-text">
+                        <label>Instagram</label>
+                        <span>@immodern001</span>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61573982754287&mibextid=wwXIfr&rdid=Bxo2rdxjvCDddm3k&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Er4X9sWmp%2F%3Fmibextid%3DwwXIfr#" target="_blank" class="info-item">
+                    <span class="icon">📘</span>
+                    <div class="info-text">
+                        <label>Facebook</label>
+                        <span>I.M MODERN</span>
+                    </div>
+                </a>
             </div>
-        </section>
+        </div>
+
+        <div class="contact-column">
+            <h3 class="column-title" data-i18n="booking_title">Book a Visit</h3>
+            <p class="column-desc" data-i18n="booking_desc">Fill out the form and we will contact you shortly:</p>
+
+            <form class="contact-form" id="booking-form">
+                <input type="hidden" name="access_key" value="ca02247e-0c5b-4771-8bf9-df165dc60934">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <input type="text" name="name" placeholder="Your Name" data-i18n="[placeholder]placeholder_name" required>
+                <input type="email" name="email" placeholder="Email Address" data-i18n="[placeholder]placeholder_email" required>
+                <textarea name="message" placeholder="Tell us about your project..." data-i18n="[placeholder]placeholder_message" rows="5" required></textarea>
+
+                <button type="submit" id="submit-btn" data-i18n="contact_btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div id="qr-modal" class="modal-overlay">
+    <div class="modal-content">
+        <button id="close-qr-btn" class="modal-close">&times;</button>
+        <div class="modal-qr-wrapper">
+            <img src="./video&imgs/qr-code.png" alt="Digital Portfolio QR Code">
+        </div>
+        <p class="modal-text" data-i18n="qr_scan_text">Scan to visit our digital portfolio anytime</p>
+    </div>
+</div>
 
     </main>
 

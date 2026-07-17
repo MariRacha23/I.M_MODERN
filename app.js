@@ -82,18 +82,22 @@ modal.addEventListener("click", (e) => {
 const translations = {
   en: {
     nav_home: "Home",
-    nav_philosophy: "Philosophy",
+    nav_philosophy: "Our Approach",
+    nav_about: "My Story", 
     nav_projects: "Projects",
-    nav_materials: "Materials",
+    nav_materials: "Tools & Quality",
     nav_contact: "Contact",
 
     hero_title: "Turnkey <br>Renovation Solutions",
-    hero_desc: "From raw concrete to your dream move-in-ready home.",
+    hero_desc: "From raw concrete to your dream move-in-ready home. We handle everything, including full furniture coordination.",
     scroll_down: "Scroll Down ↓",
 
     philo_title: "Our Philosophy",
     philo_desc:
-      "We take your space from a rough concrete shell (black frame) and transform it into a fully finished, ready-to-live home. Armed with professional, high-end tools and years of expertise, we manage every step of the renovation process. No stress, no shortcuts—just absolute precision and clean work before you bring in the furniture.",
+      "We take your space from a rough concrete shell (black frame) and transform it into a fully finished, ready-to-live home. Armed with professional, high-end tools and years of expertise, we manage every step of the renovation process. No stress, no shortcuts—just absolute precision. Upon agreement, we also fully coordinate the delivery and arrangement of your furniture, leaving the space completely ready for you.",
+
+    about_title: "My Story & UK Standards",
+    about_desc: "My journey in professional renovation began in London, United Kingdom. Working in one of the world's most demanding construction markets, I mastered precision and international quality standards, backed by the official Youview Company LTD Training Certificate. Every high-end, professional tool I use was brought directly from the UK to ensure flawless execution here in Georgia.",
 
     proj_main_title: "Our Works",
     proj_title_1: "Modern Apartment",
@@ -104,29 +108,41 @@ const translations = {
     proj_desc_3: "Premium Finish / 2026",
 
     mat_title: "Tools & Materials",
-    mat_desc: "Professional Equipment. Premium Materials. Flawless Execution.",
+    mat_desc: "Professional UK Equipment. Premium Materials. Flawless Execution.",
 
     contact_hero: "LET'S BUILD YOUR DREAM SPACE",
     contact_title: "Contact Us",
     direct_title: "Direct Connect",
-    direct_desc: "Message or call us on your preferred platform:",
+    direct_desc: "Scan the QR code or reach out on your preferred platform:",
+    qr_btn_text: "View Digital Portfolio QR",
+    qr_scan_text: "Scan to visit our digital portfolio anytime",
     booking_title: "Book a Renovation",
     booking_desc: "Fill out the form and we will contact you shortly:",
+    
+    // ფორმის შიდა ტექსტები და ღილაკი
+    placeholder_name: "Your Name",
+    placeholder_email: "Email Address",
+    placeholder_message: "Tell us about your project...",
+    contact_btn: "Send Message"
   },
   ka: {
     nav_home: "მთავარი",
     nav_philosophy: "ჩვენი მიდგომა",
+    nav_about: "ჩემი ისტორია", 
     nav_projects: "პროექტები",
     nav_materials: "ხელსაწყოები",
     nav_contact: "კონტაქტი",
 
     hero_title: "სრული რემონტი <br>შავი კარკასიდან",
-    hero_desc: "პროფესიონალური რემონტი და მშენებლობა ავეჯის შეტანამდე.",
+    hero_desc: "პროფესიონალური რემონტი ავეჯის შეტანამდე. მომსახურება მოიცავს ავეჯის სრულ ორგანიზებას (კლიენტთან შეთანხმებით).",
     scroll_down: "ჩამოსქროლეთ ↓",
 
     philo_title: "ჩვენი მიდგომა",
     philo_desc:
-      "ჩვენ ჩავიბარებთ თქვენს ბინას შავი კარკასის მდგომარეობაში და მივიყვანთ სრულ, საცხოვრებელ კონდიციამდე. ჩვენი საკუთარი, თანამედროვე ხელსაწყოებითა და მრავალწლიანი გამოცდილებით, უზრუნველყოფთ რემონტის ყველა ეტაპის უნაკლო შესრულებას. თქვენ არ მოგიწევთ ნერვიულობა – ჩვენ ვასრულებთ ყველა უხეშ და ფაქიზ სამუშაოს იდეალური სიზუსტით, ავეჯის შეტანამდე.",
+      "ჩვენ ჩავიბარებთ თქვენს ბინას შავი კარკასის მდგომარეობაში და მივიყვანთ სრულ, საცხოვრებელ კონდიციამდე. ჩვენი საკუთარი, თანამედროვე ხელსაწყოებითა და მრავალწლიანი გამოცდილებით, უზრუნველყოფთ რემონტის ყველა ეტაპის უნაკლო შესრულებას. თქვენ არ მოგიწევთ ნერვიულობა – კლიენტთან შეთანხმებით, ჩვენ თავად უზრუნველყოფთ ავეჯის ტრანსპორტირებასა და მოწყობას, რათა ჩაიბაროთ საცხოვრებლად სრულიად მზა სახლი.",
+
+    about_title: "ჩემი ისტორია და ბრიტანული სტანდარტი",
+    about_desc: "ჩემი პროფესიული გზა სარემონტო სფეროში დიდი ბრიტანეთიდან, კერძოდ ლონდონიდან დაიწყო. იქ მუშაობისას მივიღე ოფიციალური Youview Company LTD-ის სერტიფიკატი და ავითვისე ხარისხის უმაღლესი საერთაშორისო სტანდარტები. საქართველოში დაბრუნებისას, ყველა პროფესიონალური და მაღალტექნოლოგიური ხელსაწყო სწორედ ინგლისიდან ჩამოვიტანე, რაც გვაძლევს საშუალებას, ნებისმიერი სამუშაო უნაკლო სიზუსტით შევასრულოთ.",
 
     proj_main_title: "შესრულებული სამუშაოები",
     proj_title_1: "თანამედროვე ბინა",
@@ -137,51 +153,66 @@ const translations = {
     proj_desc_3: "პრემიუმ ხარისხი / 2026",
 
     mat_title: "ტექნიკა და ხარისხი",
-    mat_desc: "პროფესიონალური ხელსაწყოები. საიმედო მასალები. იდეალური შედეგი.",
+    mat_desc: "ბრიტანული პროფესიონალური ხელსაწყოები. საიმედო მასალები. იდეალური შედეგი.",
 
     contact_hero: "შევუქმნათ კომფორტი თქვენს სახლს",
     contact_title: "დაგვიკავშირდით",
     direct_title: "პირდაპირი კავშირი",
-    direct_desc: "მოგვწერეთ ან დაგვირეკეთ თქვენთვის სასურველ პლატფორმაზე:",
-    booking_title: "შეაფასეთ რემონტი",
-    booking_desc:
-      "შეავსეთ ფორმა და ჩვენ მალე დაგიკავშირდებით დეტალების დასაზუსტებლად:",
+    direct_desc: "დაასკანერეთ QR კოდი ან მოგვწერეთ თქვენთვის სასურველ პლატფორმაზე:",
+    qr_btn_text: "პორტფოლიოს QR კოდი",
+    qr_scan_text: "დაასკანერეთ ციფრული პორტფოლიოს სანახავად",
+    booking_title: "დატოვე განაცხადი რემონტისთვის",
+    booking_desc: "შეავსეთ ფორმა და ჩვენ მალე დაგიკავშირდებით დეტალების დასაზუსტებლად:",
+    
+    placeholder_name: "თქვენი სახელი",
+    placeholder_email: "ელ-ფოსტა",
+    placeholder_message: "მოგვიყევით თქვენი პროექტის შესახებ...",
+    contact_btn: "მესიჯის გაგზავნა"
   },
   ru: {
     nav_home: "Главная",
     nav_philosophy: "Наш подход",
+    nav_about: "Моя история",
     nav_projects: "Проекты",
     nav_materials: "Инструменты",
     nav_contact: "Контакты",
 
-    hero_title: "Ремонт под <br>ключ с черного каркаса",
-    hero_desc: "Профессиональный ремонт от бетона до заноса мебели.",
+    hero_title: "Ремонт под ключ <br>от черного каркаса",
+    hero_desc: "Профессиональный ремонт до завоза мебели. Услуга включает полную организацию мебели (по согласованию с клиентом).",
     scroll_down: "Прокрутите вниз ↓",
 
     philo_title: "Наш подход",
     philo_desc:
-      "Мы берем ваше пространство в состоянии черного каркаса и доводим его до идеального жилого вида. Используя собственные профессиональные инструменты премиум-класса и многолетний опыт, мы контролируем каждый этап ремонта. Никаких забот для вас — мы выполняем всю работу с абсолютной точностью, подготавливая дом к заносу мебели.",
+      "Мы принимаем вашу квартиру в состоянии черного каркаса и доводим её до полностью готового к проживанию состояния. Используя собственные современные инструменты и многолетний опыт, мы обеспечиваем безупречное выполнение каждого этапа ремонта. Вам не о чем беспокоиться — по согласованию с клиентом мы берем на себя транспортировку и расстановку мебели, чтобы вы получили полностью готовый для жизни дом.",
+
+    about_title: "Моя история и британский стандарт",
+    about_desc: "Мой профессиональный путь в сфере ремонта начался в Великобритании, а именно в Лондоне. Работая там, я получил официальный сертификат Youview Company LTD и освоил высочайшие международные стандарты качества. По возвращении в Грузию все профессиональные и высокотехнологичные инструменты я привез именно из Англии, что позволяет нам выполнять любые работы с безупречной точностью.",
 
     proj_main_title: "Наши работы",
-    proj_title_1: "Модерн Квартира",
+    proj_title_1: "Современная квартира",
     proj_desc_1: "Полный ремонт / 2026",
-    proj_title_2: "Уютный Дом",
-    proj_desc_2: "Под ключ / 2025",
+    proj_title_2: "Уютный дом",
+    proj_desc_2: "Проект под ключ / 2025",
     proj_title_3: "Минималистичный дизайн",
-    proj_desc_3: "Премиум отделка / 2026",
+    proj_desc_3: "Премиум качество / 2026",
 
-    mat_title: "Техника и Качество",
-    mat_desc:
-      "Профессиональное оборудование. Надежные материалы. Безупречный результат.",
+    mat_title: "Техника и качество",
+    mat_desc: "Британские профессиональные инструменты. Надежные материалы. Идеальный результат.",
 
-    contact_hero: "Давайте Создадим Пространство Вашей Мечты",
-    contact_title: "Свяжитесь с Нами",
-    direct_title: "Прямое Соединение",
-    direct_desc: "Напишите нам или позвоните на предпочитаемой платформе:",
-    booking_title: "Заявка на Ремонт",
-    booking_desc:
-      "Заполните форму, и мы свяжемся с вами в ближайшее время для оценки:",
-  },
+    contact_hero: "Создадим комфорт в вашем доме",
+    contact_title: "Контакты",
+    direct_title: "Прямая связь",
+    direct_desc: "Отсканируйте QR-код или напишите нам на удобной для вас платформе:",
+    qr_btn_text: "Посмотреть QR портфолио",
+    qr_scan_text: "Отсканируйте для просмотра цифрового портфолио",
+    booking_title: "Заказать ремонт",
+    booking_desc: "Заполните форму, и мы скоро свяжемся с вами для уточнения деталей:",
+    
+    placeholder_name: "Ваше Имя",
+    placeholder_email: "Эл. Почта",
+    placeholder_message: "Расскажите о вашем проекте...",
+    contact_btn: "Отправить сообщение"
+  }
 };
 
 const langButtons = document.querySelectorAll(".lang-btn");
@@ -267,4 +298,23 @@ form.addEventListener("submit", function (e) {
       submitBtn.innerText = originalText;
       submitBtn.disabled = false;
     });
+});
+
+
+const openQrBtn = document.getElementById('open-qr-btn');
+const closeQrBtn = document.getElementById('close-qr-btn');
+const qrModal = document.getElementById('qr-modal');
+
+openQrBtn.addEventListener('click', () => {
+    qrModal.classList.add('active');
+});
+
+closeQrBtn.addEventListener('click', () => {
+    qrModal.classList.remove('active');
+});
+
+qrModal.addEventListener('click', (e) => {
+    if (e.target === qrModal) {
+        qrModal.classList.remove('active');
+    }
 });
