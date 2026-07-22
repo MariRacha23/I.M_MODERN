@@ -956,6 +956,9 @@ h3,
     .project-card:hover .card-img {
         filter: grayscale(0%);
     }
+    .slide:hover .large-text {
+        color: #f5f5f5;
+    }
 
     .project-card:hover {
         border-color: #e6c687;
@@ -968,6 +971,9 @@ h3,
     .mock-img,
     .card-img {
         filter: grayscale(0%);
+    }
+    .large-text {
+        color: #f5f5f5 ;
     }
 
     .project-card {
