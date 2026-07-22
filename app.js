@@ -83,13 +83,14 @@ const translations = {
   en: {
     nav_home: "Home",
     nav_philosophy: "Our Approach",
-    nav_about: "My Story", 
+    nav_about: "My Story",
     nav_projects: "Projects",
     nav_materials: "Tools & Quality",
     nav_contact: "Contact",
 
     hero_title: "Turnkey <br>Renovation Solutions",
-    hero_desc: "From raw concrete to your dream move-in-ready home. We handle everything, including full furniture coordination.",
+    hero_desc:
+      "From raw concrete to your dream move-in-ready home. We handle everything, including full furniture coordination.",
     scroll_down: "Scroll Down ↓",
 
     philo_title: "Our Philosophy",
@@ -97,7 +98,8 @@ const translations = {
       "We take your space from a rough concrete shell (black frame) and transform it into a fully finished, ready-to-live home. Armed with professional, high-end tools and years of expertise, we manage every step of the renovation process. No stress, no shortcuts—just absolute precision. Upon agreement, we also fully coordinate the delivery and arrangement of your furniture, leaving the space completely ready for you.",
 
     about_title: "My Story & UK Standards",
-    about_desc: "My journey in professional renovation began in London, United Kingdom. Working in one of the world's most demanding construction markets, I mastered precision and international quality standards, backed by the official Youview Company LTD Training Certificate. Every high-end, professional tool I use was brought directly from the UK to ensure flawless execution here in Georgia.",
+    about_desc:
+      "My journey in professional renovation began in London, United Kingdom. Working in one of the world's most demanding construction markets, I mastered precision and international quality standards, backed by the official Youview Company LTD Training Certificate. Every high-end, professional tool I use was brought directly from the UK to ensure flawless execution here in Georgia.",
 
     proj_main_title: "Our Works",
     proj_title_1: "Modern Apartment",
@@ -108,7 +110,8 @@ const translations = {
     proj_desc_3: "Premium Finish / 2026",
 
     mat_title: "Tools & Materials",
-    mat_desc: "Professional UK Equipment. Premium Materials. Flawless Execution.",
+    mat_desc:
+      "Professional UK Equipment. Premium Materials. Flawless Execution.",
 
     contact_hero: "LET'S BUILD YOUR DREAM SPACE",
     contact_title: "Contact Us",
@@ -118,22 +121,23 @@ const translations = {
     qr_scan_text: "Scan to visit our digital portfolio anytime",
     booking_title: "Book a Renovation",
     booking_desc: "Fill out the form and we will contact you shortly:",
-    
+
     placeholder_name: "Your Name",
     placeholder_email: "Email Address",
     placeholder_message: "Tell us about your project...",
-    contact_btn: "Send Message"
+    contact_btn: "Send Message",
   },
   ka: {
     nav_home: "მთავარი",
     nav_philosophy: "ჩვენი მიდგომა",
-    nav_about: "ჩემი ისტორია", 
+    nav_about: "ჩემი ისტორია",
     nav_projects: "პროექტები",
     nav_materials: "ხელსაწყოები",
     nav_contact: "კონტაქტი",
 
     hero_title: "სრული რემონტი <br>შავი კარკასიდან",
-    hero_desc: "პროფესიონალური რემონტი ავეჯის შეტანამდე. მომსახურება მოიცავს ავეჯის სრულ ორგანიზებას (კლიენტთან შეთანხმებით).",
+    hero_desc:
+      "პროფესიონალური რემონტი ავეჯის შეტანამდე. მომსახურება მოიცავს ავეჯის სრულ ორგანიზებას (კლიენტთან შეთანხმებით).",
     scroll_down: "ჩამოსქროლეთ ↓",
 
     philo_title: "ჩვენი მიდგომა",
@@ -141,7 +145,8 @@ const translations = {
       "ჩვენ ჩავიბარებთ თქვენს ბინას შავი კარკასის მდგომარეობაში და მივიყვანთ სრულ, საცხოვრებელ კონდიციამდე. ჩვენი საკუთარი, თანამედროვე ხელსაწყოებითა და მრავალწლიანი გამოცდილებით, უზრუნველყოფთ რემონტის ყველა ეტაპის უნაკლო შესრულებას. თქვენ არ მოგიწევთ ნერვიულობა – კლიენტთან შეთანხმებით, ჩვენ თავად უზრუნველყოფთ ავეჯის ტრანსპორტირებასა და მოწყობას, რათა ჩაიბაროთ საცხოვრებლად სრულიად მზა სახლი.",
 
     about_title: "ჩემი ისტორია და ბრიტანული სტანდარტი",
-    about_desc: "ჩემი პროფესიული გზა სარემონტო სფეროში დიდი ბრიტანეთიდან, კერძოდ ლონდონიდან დაიწყო. იქ მუშაობისას მივიღე ოფიციალური Youview Company LTD-ის სერტიფიკატი და ავითვისე ხარისხის უმაღลესი საერთაშორისო სტანდარტები. საქართველოში დაბრუნებისას, ყველა პროფესიონალური და მაღალტექნოლოგიური ხელსაწყო სწორედ ინგლისიდან ჩამოვიტანე, რაც გვაძლევს საშუალებას, ნებისმიერი სამუშაო უნაკლო სიზუსტით შევასრულოთ.",
+    about_desc:
+      "ჩემი პროფესიული გზა სარემონტო სფეროში დიდი ბრიტანეთიდან, კერძოდ ლონდონიდან დაიწყო. იქ მუშაობისას მივიღე ოფიციალური Youview Company LTD-ის სერტიფიკატი და ავითვისე ხარისხის უმაღลესი საერთაშორისო სტანდარტები. საქართველოში დაბრუნებისას, ყველა პროფესიონალური და მაღალტექნოლოგიური ხელსაწყო სწორედ ინგლისიდან ჩამოვიტანე, რაც გვაძლევს საშუალებას, ნებისმიერი სამუშაო უნაკლო სიზუსტით შევასრულოთ.",
 
     proj_main_title: "შესრულებული სამუშაოები",
     proj_title_1: "თანამედროვე ბინა",
@@ -152,21 +157,24 @@ const translations = {
     proj_desc_3: "პრემიუმ ხარისხი / 2026",
 
     mat_title: "ტექნიკა და ხარისხი",
-    mat_desc: "ბრიტანული პროფესიონალური ხელსაწყოები. საიმედო მასალები. იდეალური შედეგი.",
+    mat_desc:
+      "ბრიტანული პროფესიონალური ხელსაწყოები. საიმედო მასალები. იდეალური შედეგი.",
 
     contact_hero: "შექმნათ კომფორტი თქვენს სახლში",
     contact_title: "დაგვიკავშირდით",
     direct_title: "პირდაპირი კავშირი",
-    direct_desc: "დაასკანერეთ QR კოდი ან მოგვწერეთ თქვენთვის სასურველ პლატფორმაზე:",
+    direct_desc:
+      "დაასკანერეთ QR კოდი ან მოგვწერეთ თქვენთვის სასურველ პლატფორმაზე:",
     qr_btn_text: "პორტფოლიოს QR კოდი",
     qr_scan_text: "დაასკანერეთ ციფრული პორტფოლიოს სანახავად",
     booking_title: "დატოვე განაცხადი რემონტისთვის",
-    booking_desc: "შეავსეთ ფორმა და ჩვენ მალე დაგიკავშირდებით დეტალების დასაზუსტებლად:",
-    
+    booking_desc:
+      "შეავსეთ ფორმა და ჩვენ მალე დაგიკავშირდებით დეტალების დასაზუსტებლად:",
+
     placeholder_name: "თქვენი სახელი",
     placeholder_email: "ელ-ფოსტა",
     placeholder_message: "მოგვიყევით თქვენი პროექტის შესახებ...",
-    contact_btn: "მესიჯის გაგზავნა"
+    contact_btn: "მესიჯის გაგზავნა",
   },
   ru: {
     nav_home: "Главная",
@@ -177,7 +185,8 @@ const translations = {
     nav_contact: "Контакты",
 
     hero_title: "Ремонт под ключ <br>от черного каркаса",
-    hero_desc: "Профессиональный ремонт до завоза мебели. Услуга включает полную организацию мебели (по согласованию с клиентом).",
+    hero_desc:
+      "Профессиональный ремонт до завоза мебели. Услуга включает полную организацию мебели (по согласованию с клиентом).",
     scroll_down: "Прокрутите вниз ↓",
 
     philo_title: "Наш подход",
@@ -185,7 +194,8 @@ const translations = {
       "Мы принимаем вашу квартиру в состоянии черного каркаса и доводим её до полностью готового к проживанию состояния. Используя собственные современные инструменты и многолетний опыт, мы обеспечиваем безупречное выполнение каждого этапа ремонта. Вам не о чем беспокоиться — по согласованию с клиентом мы берем на себя транспортировку и расстановку мебели, чтобы вы получили полностью готовый для жизни дом.",
 
     about_title: "Моя история и британский стандарт",
-    about_desc: "Мой профессиональный путь в сфере ремонта начался в Великобритании, а именно в Лондоне. Работая там, я получил официальный сертификат Youview Company LTD и освоил высочайшие международные стандарты качества. По возвращении в Грузию все профессиональные и высокотехнологичные инструменты я привез именно из Англии, что позволяет нам выполнять любые работы с безупречной точностью.",
+    about_desc:
+      "Мой профессиональный путь в сфере ремонта начался в Великобритании, а именно в Лондоне. Работая там, я получил официальный сертификат Youview Company LTD и освоил высочайшие международные стандарты качества. По возвращении в Грузию все профессиональные и высокотехнологичные инструменты я привез именно из Англии, что позволяет нам выполнять любые работы с безупречной точностью.",
 
     proj_main_title: "Наши работы",
     proj_title_1: "Современная квартира",
@@ -196,22 +206,25 @@ const translations = {
     proj_desc_3: "Премиум качество / 2026",
 
     mat_title: "Техника и качество",
-    mat_desc: "Британские профессиональные инструменты. Надежные материалы. Идеальный результат.",
+    mat_desc:
+      "Британские профессиональные инструменты. Надежные материалы. Идеальный результат.",
 
     contact_hero: "Создадим комфорт в вашем доме",
     contact_title: "Контакты",
     direct_title: "Прямая связь",
-    direct_desc: "Отсканируйте QR-код или напишите нам на удобной для вас платформе:",
+    direct_desc:
+      "Отсканируйте QR-код или напишите нам на удобной для вас платформе:",
     qr_btn_text: "Посмотреть QR портфолио",
     qr_scan_text: "Отсканируйте для просмотра цифрового портфолио",
     booking_title: "Заказать ремонт",
-    booking_desc: "Заполни форму, и мы скоро свяжемся с вами для уточнения деталей:",
-    
+    booking_desc:
+      "Заполни форму, и мы скоро свяжемся с вами для уточнения деталей:",
+
     placeholder_name: "Ваше Имя",
     placeholder_email: "Эл. Почта",
     placeholder_message: "Рассказажите о вашем проекте...",
-    contact_btn: "Отправить сообщение"
-  }
+    contact_btn: "Отправить сообщение",
+  },
 };
 
 const langButtons = document.querySelectorAll(".lang-btn");
@@ -230,7 +243,7 @@ const changeLanguage = (lang) => {
     }
   });
 
-  langButtons.forEach(btn => {
+  langButtons.forEach((btn) => {
     if (btn.getAttribute("data-lang") === lang) {
       btn.classList.add("active-lang");
     } else {
@@ -277,7 +290,12 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   const originalText = submitBtn.innerText;
-  submitBtn.innerText = currentLang === "ka" ? "იგზავნება..." : currentLang === "ru" ? "Отправка..." : "Sending...";
+  submitBtn.innerText =
+    currentLang === "ka"
+      ? "იგზავნება..."
+      : currentLang === "ru"
+        ? "Отправка..."
+        : "Sending...";
   submitBtn.disabled = true;
 
   const formData = new FormData(form);
@@ -295,16 +313,30 @@ form.addEventListener("submit", function (e) {
     .then(async (response) => {
       let jsonResponse = await response.json();
       if (response.status == 200) {
-        alert(currentLang === "ka" ? "გმადლობთ! შეტყობინება წარმატებით გაიგზავნა." : currentLang === "ru" ? "Спасибо! Сообщение успешно отправлено." : "Thank you! Message sent successfully.");
+        alert(
+          currentLang === "ka"
+            ? "გმადლობთ! შეტყობინება წარმატებით გაიგზავნა."
+            : currentLang === "ru"
+              ? "Спасибо! Сообщение успешно отправлено."
+              : "Thank you! Message sent successfully.",
+        );
         form.reset();
       } else {
         console.log(jsonResponse);
-        alert(currentLang === "ka" ? "დაფიქсირდა შეცდომა. გთხოვთ, სცადოთ მოგვიანებით." : "An error occurred. Please try again later.");
+        alert(
+          currentLang === "ka"
+            ? "დაფიქсირდა შეცდომა. გთხოვთ, სცადოთ მოგვიანებით."
+            : "An error occurred. Please try again later.",
+        );
       }
     })
     .catch((error) => {
       console.log(error);
-      alert(currentLang === "ka" ? "ინტერნეტის ხარვეზი! შეტყობინება ვერ გაიგზავნა." : "Network error! Message could not be sent.");
+      alert(
+        currentLang === "ka"
+          ? "ინტერნეტის ხარვეზი! შეტყობინება ვერ გაიგზავნა."
+          : "Network error! Message could not be sent.",
+      );
     })
     .then(function () {
       submitBtn.innerText = originalText;
@@ -312,30 +344,29 @@ form.addEventListener("submit", function (e) {
     });
 });
 
-const openQrBtn = document.getElementById('open-qr-btn');
-const closeQrBtn = document.getElementById('close-qr-btn');
-const qrModal = document.getElementById('qr-modal');
+const openQrBtn = document.getElementById("open-qr-btn");
+const closeQrBtn = document.getElementById("close-qr-btn");
+const qrModal = document.getElementById("qr-modal");
 
 if (openQrBtn && qrModal) {
-  openQrBtn.addEventListener('click', () => {
-    qrModal.classList.add('active');
+  openQrBtn.addEventListener("click", () => {
+    qrModal.classList.add("active");
   });
 }
 
 if (closeQrBtn && qrModal) {
-  closeQrBtn.addEventListener('click', () => {
-    qrModal.classList.remove('active');
+  closeQrBtn.addEventListener("click", () => {
+    qrModal.classList.remove("active");
   });
 }
 
 if (qrModal) {
-  qrModal.addEventListener('click', (e) => {
+  qrModal.addEventListener("click", (e) => {
     if (e.target === qrModal) {
-      qrModal.classList.remove('active');
+      qrModal.classList.remove("active");
     }
   });
 }
-
 
 const certCard = document.querySelector(".certificate-clickable");
 
@@ -346,7 +377,10 @@ if (certCard) {
     const cleanUrl = bgImage.replace(/^url\(['"](.+)['"]\)$/, "$1");
 
     modalImg.src = cleanUrl;
-    modalCaption.innerText = currentLang === "ka" ? "სერტიფიკატი / Youview Company LTD" : "Certificate / Youview Company LTD";
+    modalCaption.innerText =
+      currentLang === "ka"
+        ? "სერტიფიკატი / Youview Company LTD"
+        : "Certificate / Youview Company LTD";
 
     modal.classList.add("show");
     modal.style.display = "block";
@@ -357,7 +391,7 @@ if (certCard) {
 const modalImageElement = document.getElementById("modal-img");
 
 if (modalImageElement) {
-  modalImageElement.addEventListener("click", function() {
+  modalImageElement.addEventListener("click", function () {
     this.classList.toggle("zoomed");
     if (this.classList.contains("zoomed")) {
       this.style.transform = "scale(1.5)";
@@ -370,7 +404,7 @@ if (modalImageElement) {
 }
 
 const originalCloseModal = closeModal;
-closeModal = function() {
+closeModal = function () {
   if (modalImageElement) {
     modalImageElement.style.transform = "scale(1)";
     modalImageElement.classList.remove("zoomed");
